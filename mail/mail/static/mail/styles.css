@@ -1,0 +1,27 @@
+textarea {
+    min-height: 400px;
+}
+.inboxEmail{
+    border: 2px solid black;
+    margin-bottom: 1px;
+    /*To align the timestamp to the right end of the box, you can use CSS. One way to do this is by making the inboxEmail a flex container and then pushing the timestamp to the end.*/
+    display: flex;
+    justify-content: space-between;
+}
+.timeStamp{
+    color: grey;
+}
+.aButton{
+    background-color: rgb(0, 123, 255);
+    border: 1px solid #007bff;
+    color: white;
+    font-size: 16px;
+    width:83px;
+    height: 37.6px;
+    font-weight:400;
+    border-radius:.25rem;
+    margin-top: 20px;
+    margin-right:50px;
+    margin-buttom:50px;
+}
+
